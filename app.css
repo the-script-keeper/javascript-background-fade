@@ -1,6 +1,7 @@
 body {
     background-color: #ffffff;
-    transition: 1s background-color;
+    transition: background .7s, color .7s;
+    -webkit-transition: background .7s, color .7s;
 }
 
 .changeColor {
