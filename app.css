@@ -1,22 +1,29 @@
+body {
+    background-color: #ffffff;
+}
 .container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 50px;
+    margin: 0px 50px;
 }
 .cleric-container {
     display: flex;
     height: 100vh;
-    width: 50vw;
+    width: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.spacer {
+    width: 50%;
+}
+
 .warlock-container {
     display: flex;
     height: 100vh;
-    width: 50vw;
+    width: 50%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -29,6 +36,7 @@ h2 {
     line-height: 75px;
     letter-spacing: 0em;
     margin-top: 50px;
+    color: black;
 }
 
 p {
@@ -38,4 +46,5 @@ p {
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0em;
+    color: black;
 }
