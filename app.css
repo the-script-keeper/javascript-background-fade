@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.cleric-container {
+    display: flex;
+    height: 100vh;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.warlock-container {
+    display: flex;
+    height: 100vh;
+    width: 50vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3em;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    margin-top: 50px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125em;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
