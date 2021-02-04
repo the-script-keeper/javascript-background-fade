@@ -1,6 +1,13 @@
 body {
     background-color: #ffffff;
+    transition: 1s background-color;
 }
+
+.changeColor {
+    background-color: #1a1b1c;
+    color: white;
+ }
+
 .container {
     display: flex;
     flex-direction: row;
@@ -36,7 +43,6 @@ h2 {
     line-height: 75px;
     letter-spacing: 0em;
     margin-top: 50px;
-    color: black;
 }
 
 p {
@@ -46,5 +52,4 @@ p {
     font-weight: 300;
     line-height: 30px;
     letter-spacing: 0em;
-    color: black;
 }
